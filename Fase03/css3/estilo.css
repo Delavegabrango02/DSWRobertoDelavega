@@ -1,0 +1,32 @@
+header{
+    background-color: darkslategray;
+    padding: 20px;
+}
+nav{
+    background-color:steelblue;
+    color:block;
+    padding: 10px;
+
+}
+section{
+    float: left;
+    width: 70%;
+    background-color: blue;
+}
+aside{  
+    float: left;
+    width: 30%;
+    background-color: blue;
+}
+footer{
+    background-color: cyan;
+    color: cadetblue;
+    padding: 10px;
+}
+.Contenedor2::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+
